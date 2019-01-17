@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-1.0" prefHeight="604.0" prefWidth="1039.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.application.mainController">
+  <children>
+    <ProgressIndicator layoutX="242.0" layoutY="30.0" prefHeight="45.0" prefWidth="45.0" progress="0.0" />
+    <SplitPane dividerPositions="0.20066889632107024" focusTraversable="true" orientation="VERTICAL" prefHeight="600.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <items>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="119.99990844726562" prefWidth="798.0">
+          <children>
+            <MenuBar AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+              <menus>
+                <Menu mnemonicParsing="false" text="File">
+                  <items>
+                    <MenuItem fx:id="btnUserInfo" mnemonicParsing="false" onAction="#Userinfo" text="User General Information" />
+                    <MenuItem fx:id="btnSettings" mnemonicParsing="false" onAction="#Settings" text="Settings" />
+                    <MenuItem fx:id="btnClose" mnemonicParsing="false" onAction="#CloseApp" text="Close" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <Label fx:id="lblConnecting" layoutX="104.0" layoutY="26.0" prefHeight="43.0" prefWidth="461.0" text="Connecting...." AnchorPane.leftAnchor="104.0" AnchorPane.topAnchor="26.0">
+              <font>
+                <Font size="20.0" fx:id="x1" />
+              </font>
+            </Label>
+            <Button fx:id="btnConnect" mnemonicParsing="false" onAction="#Connect" prefWidth="80.0" text="Connect" AnchorPane.leftAnchor="23.0" AnchorPane.topAnchor="80.0" />
+            <Label fx:id="btnStatus" font="$x1" layoutX="23.0" layoutY="32.0" text="Status:" AnchorPane.leftAnchor="23.0" AnchorPane.topAnchor="32.0" />
+            <Button fx:id="btnDisconnect" mnemonicParsing="false" onAction="#Disconnect" prefWidth="80.0" text="Disconnect" AnchorPane.leftAnchor="142.0" AnchorPane.topAnchor="80.0" />
+            <Label fx:id="lblFallDet" font="$x1" prefHeight="27.0" prefWidth="145.0" text="Fall Detected" textFill="BLACK" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="39.0" />
+            <Label fx:id="lblHelpReq" font="$x1" text="Help Requested" AnchorPane.rightAnchor="34.0" AnchorPane.topAnchor="74.0" />
+            <Button fx:id="btnScan" layoutX="254.0" layoutY="80.0" mnemonicParsing="false" onAction="#ScanForBluetoothDevices" prefWidth="80.0" text="Scan" AnchorPane.leftAnchor="254.0" AnchorPane.topAnchor="80.0" />
+            <ChoiceBox fx:id="ddlAvSensors" layoutX="651.0" layoutY="77.0" prefWidth="150.0" AnchorPane.rightAnchor="236.0" AnchorPane.topAnchor="77.0" />
+          </children>
+        </AnchorPane>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+          <children>
+            <SplitPane dividerPositions="0.85" focusTraversable="true" orientation="VERTICAL" prefHeight="475.0" prefWidth="798.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+              <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                  <children>
+                    <SplitPane dividerPositions="0.5" focusTraversable="true" prefHeight="375.0" prefWidth="796.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                      <items>
+                        <AnchorPane fx:id="idGraphAccl" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" />
+                        <AnchorPane fx:id="idGraphGyro" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" />
+                      </items>
+                    </SplitPane>
+                  </children>
+                </AnchorPane>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="130.0" prefWidth="796.0">
+                  <children>
+                    <Button fx:id="btnStart" layoutX="39.0" layoutY="42.0" mnemonicParsing="false" onAction="#StartReceiving" prefWidth="80.0" text="Start" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="40.0" />
+                    <Button id="Stop" fx:id="btnFlsAlarm" mnemonicParsing="false" onAction="#FalseAlrm" prefWidth="80.0" text="FalseAlarm" AnchorPane.bottomAnchor="25.0" AnchorPane.rightAnchor="155.0" />
+                    <Button fx:id="btnFall" minHeight="-1.0" mnemonicParsing="false" onAction="#doFall" prefHeight="-1.0" prefWidth="80.0" text="Fall" AnchorPane.bottomAnchor="25.0" AnchorPane.rightAnchor="47.0" />
+                    <Button fx:id="btnIO" layoutX="437.0" layoutY="18.0" mnemonicParsing="false" onAction="#activateIOService" prefHeight="25.0" prefWidth="100.0" text="IO Service On" AnchorPane.bottomAnchor="25.0" AnchorPane.rightAnchor="270.0" />
+                              <TextField fx:id="txtPortName" layoutX="289.0" layoutY="18.0" prefHeight="25.0" prefWidth="157.0" />
+                              <Label layoutX="211.0" layoutY="22.0" text="Port Name" />
+                              <Button fx:id="btnOpenPort" layoutX="476.0" layoutY="18.0" mnemonicParsing="false" onAction="#openComPort" text="Conn LauchPad" />
+                  </children>
+                </AnchorPane>
+              </items>
+            </SplitPane>
+          </children>
+        </AnchorPane>
+      </items>
+    </SplitPane>
+  </children>
+</AnchorPane>
