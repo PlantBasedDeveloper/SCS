@@ -1,0 +1,182 @@
+\documentclass[]{article}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage[backend=bibtex, natbib=true]{biblatex}
+\usepackage{listings}
+
+\bibliography{bibliography}
+%opening
+%Here you can enter your names and titleof your report
+\title{Bi-Weekly Report 1}
+\author{
+	Raul Bertone
+	\and
+	Elis Harruni
+	\and
+	Muyassar Kokhkharova
+	\and
+	Saidar Ramazanov
+	\and
+	Xhoni Robo	
+}
+
+\begin{document}
+
+\maketitle
+
+\section{Goals for the Week 14 May - 20 May 2018  (Xhoni Robo, 30y)}
+After receiving feedback from the previous week, the group decided on the following goals in the next sprint:
+\begin{enumerate}
+	\item Ensure that the SensorTag uses only the required sensors for our application (i.e. Accelerometer and Gyroscope), using EXLUDE statements
+	\item Implement the SensorTag Bluetooth I/O functions in C
+	\item Implement the SensorTag Alarm function in C
+	\item Design a Basic UI
+	\item Make a basic PC Application
+	\item To Be Continued...
+\end{enumerate}
+The tasks are divided among the members in the following way:
+\begin{itemize}
+	\item Raul Bertone and Xhoni Robo:
+	\begin{enumerate}
+		\item Use Exclude Statements to ensure only Accelerometer and Gyroscope sensors send data
+		\item Implement the SensorTag™ Bluetooth I/O functions in C
+		\item Implement the SensorTag™ Alarm function in C
+	\end{enumerate}
+	\item Elis Haruni:
+	\begin{enumerate}
+		\item Subitem 1
+		\item Subitem 2\\\\\\
+	\end{enumerate}
+	\item Muyassar Kokhkharova:
+	\begin{enumerate}
+		\item Subitem 1
+		\item Subitem 2
+	\end{enumerate}
+	\item Saidar Ramazanov
+	\begin{enumerate}
+		\item Subitem 1
+		\item Subitem 2
+	\end{enumerate}
+\end{itemize}
+
+\section{Sections and Paragraphes}
+Usually when using a \LaTeX\ document sections and paragraphs are used to categorize your content. Down below you'll find some examples how to create and use sections and parapgraphs. As you will see the enumeration of the sections and subsections will be done automatically. 
+
+\subsection{Example: Subsection}
+Some text...
+
+\subsubsection{Example: Subsubsection}
+Some text...
+
+\paragraph{Example: Paragraph}
+Some text...
+
+\subparagraph{Example: Subparagraph}
+Some text...
+
+
+\section{Images}
+When using images in \LaTeX\ you will need the command down below, furthermore make sure to always reference the source of an used images. The \textbf{[h]} argumet will set your image on this exact place in the document. If you want to reference to an image, you'll need the following command, which creates the following output: \textbf{Figure \ref{img:fra_logo}}.
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=0.40]{images/logo}
+		\caption{Logo: Frankfurt University of Applied Sciences}
+		\label{img:fra_logo}
+	\end{figure}
+
+\section{Tables}
+Down below you'll see a simple example of a table with two coloumns. If you want to reference a table, the same command applies as when referencing to an image: \textbf{Table \ref{img:fra_logo}}  
+	
+	\begin{table}[h!]
+	\centering
+	\begin{tabular}{|c|c|}
+		\hline
+		{\textbf{Optimization Flag}}	&		{\textbf{Execution Time (ms)}} \\ 
+		\hline
+		-O0							&		809-812								\\
+		\hline
+		-O1							&		612-663								\\
+		\hline
+		-O2							&		404-406								\\
+		\hline
+		-O3							&		405-406								\\
+		\hline
+		-Os							&		339-341								\\
+		\hline
+	\end{tabular}
+	\caption{Comparison of execution time with different optimization levels}
+	\label{tab:exc_time}
+	\end{table}
+
+\section{Itemization and Enumerations}
+If you need to itemize or enumerate something, you can do this as following, furthermore there are little examples of how to use subitems as well. \\
+
+\textbf{Itemization}
+\begin{itemize}
+	\item Item 1
+	\item Item 2
+	\item Item 3
+		\begin{enumerate}
+			\item Subitem 1
+			\item Subitem 2
+		\end{enumerate}
+	\item Item 4
+	\item ... \\
+\end{itemize}
+
+\textbf{Enumeration}
+\begin{enumerate}
+	\item Item 1
+	\item Item 2
+	\item Item 3
+		\begin{enumerate}
+			\item Subitem 1
+			\item Subitem 2
+		\end{enumerate}
+	\item Item 4
+	\item ...
+\end{enumerate}
+
+\section{Code Listings}
+This section will give you a little example of how to use Code Listings in your \LaTeX\ document, if you want to add some Code snippets in your weekly reports.
+
+\begin{lstlisting}[language=C,frame=single, caption = Taskhandler of Router, label = task_router] 
+void APL_TaskHandler(void){
+	switch(appstate) {
+		case APP_INIT_STATE:
+			BSP_OpenLeds();
+
+			timer.interval = 3000;
+			timer.mode = TIMER_REPEAT_MODE;
+			timer.callback = timerFired;
+
+			HAL_StartAppTimer(&timer);
+
+			appstate = APP_RED_STATE;
+			SYS_PostTask(APL_TASK_ID);
+			break; 
+	}
+}
+
+\end{lstlisting} 
+
+
+\section{Referencing}
+In a scientific report it is mandatory to use references and citate correctly. This section will show you how to reference. Normally there are two ways to reference something. For example if you'll need to reference to a certain page in a book, this could be done as following: \cite[p.233]{zigbee}, if you just want to cite the whole source it would look like this: \cite{sharelatex}. \\
+
+It is important as well, that if you cite a specific sentence or part of something, that you use the qoute right. 
+
+For example: "\textit{Tables are a common feature in academic writing, often used to summarize research results.}" \cite{tables}. But if you paraphraze something out of a resource, it could look something like this: Tables are often used in academic writing and can summarize research results (cf. \cite{tables}) \\
+
+If you want to add a new reference to your document, you need to open the \textbf{bibliography.bib} file in the \textbf{template} folder via TeXstudio and add it. In the file there are some examples for books and web sources. 
+
+\subsection{Internet sources}
+Sources out of the internet are often used by students, but \textbf{do not} only provide the URL of the source. You'll always need to state the author, title and your last access to the website as well! If you look in the References section down below, you'll see how to reference a web source correctly. 
+
+
+%----------------------------------------------------------------------------
+% Bibliography
+%----------------------------------------------------------------------------	
+\printbibliography
+\end{document}

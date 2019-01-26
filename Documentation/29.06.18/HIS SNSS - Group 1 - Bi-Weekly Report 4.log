@@ -1,0 +1,682 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.10)  28 JUN 2018 23:03
+entering extended mode
+**"./HIS SNSS - Group 1 - Bi-Weekly Report 4.tex"
+("HIS SNSS - Group 1 - Bi-Weekly Report 4.tex"
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2018/02/14 3.18 The Babel package
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel-english\english.ldf"
+Language: english 2017/06/06 v3.3r English support from the babel system
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2018/02/14 3.18 Babel common definitions
+\babel@savecnt=\count87
+\U@D=\dimen103
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\txtbabel.def")
+\bbl@dirlevel=\count88
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen106
+\extrarowheight=\dimen107
+\NC@list=\toks15
+\extratabsurround=\skip43
+\backup@length=\skip44
+)
+\TX@col@width=\dimen108
+\TX@old@table=\dimen109
+\TX@old@col=\dimen110
+\TX@target=\dimen111
+\TX@delta=\dimen112
+\TX@cols=\count89
+\TX@ftn=\toks16
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.sty"
+Package: biblatex 2018/03/04 v3.11 programmable bibliographies (PK/MW)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count90
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.sty"
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count91
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.def"
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\xstring\xstring.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\xstring\xstring.tex"
+\@xs@message=\write3
+\integerpart=\count92
+\decimalpart=\count93
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+\c@tabx@nest=\count94
+\c@listtotal=\count95
+\c@listcount=\count96
+\c@liststart=\count97
+\c@liststop=\count98
+\c@citecount=\count99
+\c@citetotal=\count100
+\c@multicitecount=\count101
+\c@multicitetotal=\count102
+\c@instcount=\count103
+\c@maxnames=\count104
+\c@minnames=\count105
+\c@maxitems=\count106
+\c@minitems=\count107
+\c@citecounter=\count108
+\c@savedcitecounter=\count109
+\c@uniquelist=\count110
+\c@uniquename=\count111
+\c@refsection=\count112
+\c@refsegment=\count113
+\c@maxextratitle=\count114
+\c@maxextratitleyear=\count115
+\c@maxextradate=\count116
+\c@maxextraalpha=\count117
+\c@abbrvpenalty=\count118
+\c@highnamepenalty=\count119
+\c@lownamepenalty=\count120
+\c@maxparens=\count121
+\c@parenlevel=\count122
+\blx@tempcnta=\count123
+\blx@tempcntb=\count124
+\blx@tempcntc=\count125
+\blx@maxsection=\count126
+\blx@maxsegment@0=\count127
+\blx@notetype=\count128
+\blx@parenlevel@text=\count129
+\blx@parenlevel@foot=\count130
+\blx@sectionciteorder@0=\count131
+\labelnumberwidth=\skip45
+\labelalphawidth=\skip46
+\biblabelsep=\skip47
+\bibitemsep=\skip48
+\bibnamesep=\skip49
+\bibinitsep=\skip50
+\bibparsep=\skip51
+\bibhang=\skip52
+\blx@bcfin=\read1
+\blx@bcfout=\write4
+\c@mincomprange=\count132
+\c@maxcomprange=\count133
+\c@mincompwidth=\count134
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-dm.def"
+File: blx-dm.def 2018/03/04 v3.11 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count135
+\c@savedafterword=\count136
+\c@annotator=\count137
+\c@savedannotator=\count138
+\c@author=\count139
+\c@savedauthor=\count140
+\c@bookauthor=\count141
+\c@savedbookauthor=\count142
+\c@commentator=\count143
+\c@savedcommentator=\count144
+\c@editor=\count145
+\c@savededitor=\count146
+\c@editora=\count147
+\c@savededitora=\count148
+\c@editorb=\count149
+\c@savededitorb=\count150
+\c@editorc=\count151
+\c@savededitorc=\count152
+\c@foreword=\count153
+\c@savedforeword=\count154
+\c@holder=\count155
+\c@savedholder=\count156
+\c@introduction=\count157
+\c@savedintroduction=\count158
+\c@namea=\count159
+\c@savednamea=\count160
+\c@nameb=\count161
+\c@savednameb=\count162
+\c@namec=\count163
+\c@savednamec=\count164
+\c@translator=\count165
+\c@savedtranslator=\count166
+\c@shortauthor=\count167
+\c@savedshortauthor=\count168
+\c@shorteditor=\count169
+\c@savedshorteditor=\count170
+\c@labelname=\count171
+\c@savedlabelname=\count172
+\c@institution=\count173
+\c@savedinstitution=\count174
+\c@lista=\count175
+\c@savedlista=\count176
+\c@listb=\count177
+\c@savedlistb=\count178
+\c@listc=\count179
+\c@savedlistc=\count180
+\c@listd=\count181
+\c@savedlistd=\count182
+\c@liste=\count183
+\c@savedliste=\count184
+\c@listf=\count185
+\c@savedlistf=\count186
+\c@location=\count187
+\c@savedlocation=\count188
+\c@organization=\count189
+\c@savedorganization=\count190
+\c@origlocation=\count191
+\c@savedoriglocation=\count192
+\c@origpublisher=\count193
+\c@savedorigpublisher=\count194
+\c@publisher=\count195
+\c@savedpublisher=\count196
+\c@language=\count197
+\c@savedlanguage=\count198
+\c@origlanguage=\count199
+\c@savedoriglanguage=\count266
+\c@pageref=\count267
+\c@savedpageref=\count268
+\shorthandwidth=\skip53
+\shortjournalwidth=\skip54
+\shortserieswidth=\skip55
+\shorttitlewidth=\skip56
+\shortauthorwidth=\skip57
+\shorteditorwidth=\skip58
+\locallabelnumberwidth=\skip59
+\locallabelalphawidth=\skip60
+\localshorthandwidth=\skip61
+\localshortjournalwidth=\skip62
+\localshortserieswidth=\skip63
+\localshorttitlewidth=\skip64
+\localshortauthorwidth=\skip65
+\localshorteditorwidth=\skip66
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-compat.def"
+File: blx-compat.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-bibtex.def"
+File: blx-bibtex.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
+
+
+Package biblatex Warning: Using fall-back BibTeX(8) backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.def"
+File: biblatex.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
+\c@textcitecount=\count269
+\c@textcitetotal=\count270
+\c@textcitemaxnames=\count271
+\c@biburlnumpenalty=\count272
+\c@biburlucpenalty=\count273
+\c@biburllcpenalty=\count274
+\c@smartand=\count275
+)
+Package biblatex Info: Trying to load natbib compatibility...
+Package biblatex Info: ... file 'blx-natbib.def' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-natbib.def"
+File: blx-natbib.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\bbx\numeric.bbx"
+File: numeric.bbx 2018/03/04 v3.11 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\bbx\standard.bbx"
+File: standard.bbx 2018/03/04 v3.11 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count276
+\c@bbx:relatedtotal=\count277
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\cbx\numeric.cbx"
+File: numeric.cbx 2018/03/04 v3.11 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.cfg"
+File: biblatex.cfg 
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
+\lst@mode=\count278
+\lst@gtempboxa=\box26
+\lst@token=\toks17
+\lst@length=\count279
+\lst@currlwidth=\dimen113
+\lst@column=\count280
+\lst@pos=\count281
+\lst@lostspace=\dimen114
+\lst@width=\dimen115
+\lst@newlines=\count282
+\lst@lineno=\count283
+\lst@maxwidth=\dimen116
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count284
+\lst@skipnumbers=\count285
+\lst@framebox=\box27
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\placeins\placeins.sty"
+Package: placeins 2005/04/18  v 2.2
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\lbx\english.lbx"
+File: english.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
+)
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count286
+\@quotereset=\count287
+("HIS SNSS - Group 1 - Bi-Weekly Report 4.aux")
+\openout1 = `"HIS SNSS - Group 1 - Bi-Weekly Report 4.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count288
+\scratchdimen=\dimen117
+\scratchbox=\box28
+\nofMPsegments=\count289
+\nofMParguments=\count290
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count291
+\MPscratchDim=\dimen118
+\MPnumerator=\count292
+\makeMPintoPDFobject=\count293
+\everyMPtoPDFconversion=\toks19
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+Package biblatex Info: No input encoding detected.
+(biblatex)             Assuming 'ascii'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'ascii'.
+Package biblatex Info: Input encoding 'ascii' specified.
+Package biblatex Info: Data encoding 'ascii' specified.
+(biblatex)             No need to reencode data.
+\openout4 = `HIS_SNSS_-_Group_1_-_Bi-Weekly_Report_4-blx.bib'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file '"HIS SNSS - Group 1 - Bi-Weekly Report 4".bbl'
+ found.
+
+("HIS SNSS - Group 1 - Bi-Weekly Report 4.bbl")
+Package biblatex Info: Reference section=0 on input line 22.
+Package biblatex Info: Reference segment=0 on input line 22.
+\c@lstlisting=\count294
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 24.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 24.
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--34
+
+ []
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+[1
+
+{C:/Users/Johnny/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+<images/State_Diag.png, id=10, 450.18187pt x 183.68625pt>
+File: images/State_Diag.png Graphic file (type png)
+<use images/State_Diag.png>
+Package pdftex.def Info: images/State_Diag.png  used on input line 43.
+(pdftex.def)             Requested size: 360.14598pt x 146.94917pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+
+ []
+
+[2 <./images/State_Diag.png>]
+<images/UML_1.png, id=14, 502.87875pt x 346.29375pt>
+File: images/UML_1.png Graphic file (type png)
+<use images/UML_1.png>
+Package pdftex.def Info: images/UML_1.png  used on input line 62.
+(pdftex.def)             Requested size: 362.07242pt x 249.3313pt.
+ [3 <./images/UML_1.png>]
+<images/UI_4.png, id=18, 502.87875pt x 326.72063pt>
+File: images/UI_4.png Graphic file (type png)
+<use images/UI_4.png>
+Package pdftex.def Info: images/UI_4.png  used on input line 87.
+(pdftex.def)             Requested size: 402.30354pt x 261.37685pt.
+
+Overfull \hbox (12.30354pt too wide) in paragraph at lines 87--88
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4]
+<images/UI_1.png, id=22, 503.63156pt x 100.12407pt>
+File: images/UI_1.png Graphic file (type png)
+<use images/UI_1.png>
+Package pdftex.def Info: images/UI_1.png  used on input line 98.
+(pdftex.def)             Requested size: 402.90579pt x 80.09935pt.
+
+Overfull \hbox (12.90579pt too wide) in paragraph at lines 98--99
+ [][] 
+ []
+
+[5 <./images/UI_4.png> <./images/UI_1.png>]
+<images/UI_2.png, id=26, 499.11469pt x 191.21437pt>
+File: images/UI_2.png Graphic file (type png)
+<use images/UI_2.png>
+Package pdftex.def Info: images/UI_2.png  used on input line 108.
+(pdftex.def)             Requested size: 399.29228pt x 152.9717pt.
+
+Overfull \hbox (9.29228pt too wide) in paragraph at lines 108--109
+ [][] 
+ []
+
+<images/UI_3.png, id=27, 475.02469pt x 127.97812pt>
+File: images/UI_3.png Graphic file (type png)
+<use images/UI_3.png>
+Package pdftex.def Info: images/UI_3.png  used on input line 118.
+(pdftex.def)             Requested size: 380.02025pt x 102.38261pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--129
+
+ []
+
+[6
+
+ <./images/UI_2.png> <./images/UI_3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 131--134
+
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 135.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 135.
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--141
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--141
+
+ []
+
+[7]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 144.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 144.
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [8]
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no ∞ in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--154
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--154
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 157.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 157.
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
+
+ []
+
+[9] [10
+
+] ("HIS SNSS - Group 1 - Bi-Weekly Report 4.aux")
+Package logreq Info: Writing requests to '"HIS SNSS - Group 1 - Bi-Weekly Repor
+t 4".run.xml'.
+\openout1 = `"HIS SNSS - Group 1 - Bi-Weekly Report 4.run.xml"'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 10057 strings out of 493305
+ 172708 string characters out of 3138871
+ 432949 words of memory out of 3000000
+ 13499 multiletter control sequences out of 15000+200000
+ 10378 words of font info for 36 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 36i,6n,45p,1168b,1587s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on "HIS SNSS - Group 1 - Bi-Weekly Report 4.pdf" (10 pages, 4082
+72 bytes).
+PDF statistics:
+ 81 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+
