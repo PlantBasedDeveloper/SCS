@@ -1,0 +1,112 @@
+\documentclass[12pt]{article}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage[backend=bibtex, natbib=true]{biblatex}
+\usepackage{listings}
+
+\bibliography{bibliography}
+%opening
+%Here you can enter your names and titleof your report
+\title{HIS SSNS - Bi-Weekly Report 2}
+\author{
+	 Raul Bertone
+\and Elis Harruni
+\and Muyassar Kokhkharova
+\and Saidar Ramazanov
+\and Xhoni Robo
+}
+
+\begin{document}
+
+\maketitle
+
+%The abstract is used to give a short overview of your report, article, ...
+\begin{abstract}
+ This report covers the progress made by the group on their project during the time period 19th of May to 31st of May 2018. Individual and total group effort is at the end of this report.
+\end{abstract}
+
+\section{SensorTag Development}
+\textbf{Function activation and deactivation:} we were able to deactivate the unused functions in the “proper” way, by adding the relevant pre-processor options: EXCLUDE\_OAD, EXCLUDE\_REG, EXCLUDE\_OPT, EXCLUDE\_BAR, EXCLUDE\_HUM, EXCLUDE\_TMP. In the same way we also activated the buzzer, with the option  Board\_BUZZER.\\\\
+\textbf{Movement sensor configuration:} first, using the appropriate bitmask in the \textit{mpuconfig} variable, we were able to configure the movement sensor. In particular we set the sensitivity of the accelerometer to +/- 4G and we turned off the magnetometer.\\\\
+\textit{mpuconfig = 0x1BF}\\\\
+Additionally, we increased the update rate of the whole sensor to 20Hz (instead of the standard 1Hz).\\\\
+\textbf{I/O service:} to be able to control the buzzer (and LEDs) remotely via Bluetooth, we modified the I/O service configuration.\\\\
+\textit{ioMode = 1}\\\\
+At the moment, this concludes the development on the SensorTags.
+
+\subsection{Dead SensorTags}
+We did some investigation on why the SensorTags often stopped working after flashing. We found out that, on some computers, flashing by connecting the Debugger module via USB 3.0 would “kill” the Sensortag (it would then only work while powered through the Debugger itself, but not on battery alone). To avoid this, it was enough to flash via a USB 2.0 port instead of 3.0. However, to bring back a “killed” Sensortag it is first necessary to flash the hex file using the Flash Programmer 2 (again, only via USB 2.0).
+
+\subsection{Git Lecture}
+Because of the different levels of programming experience in the team, it was deemed necessary to hold a short meeting where the basics of using \textit{git} were introduced. This included everything from the basic ideas of how git works, how to effectively use branches for smart programming as well as the command lines that are required to work on different computers.
+
+\subsection{Desktop Application Development}
+During the past two weeks since the last report, the team has completed a primary version of the \textit{Alarm Module} and of the \textit{Configuration Module}. The first is able to send an email to one or more contacts to request assistance. The second stores all the information needed by the application. This information is of two kinds:  
+\begin{enumerate}
+	\item user data and contact information for the helpers
+	\item calibration and settings information for the sensors
+\end{enumerate}
+
+\section{Implementation of Math Model}
+On the previous week, the Mathematical logic of the accelerometer fall detection was implemented. The architecture of the implementation was easy and reliable for the first look. Program starts a thread when the function of the maths model is triggered by main package and it gets new measurements from sensors. However, it was found that the amount of measurements per second is too high. It means that there will be 25 threads each moment. Also, the minimum fall time is 450 ms, consequently the program can skip calculations for 10 measurements. Finally, the mathematical model will not care about calculations for 500 ms, during that time the Mathematical class will only add new measurements into the array of data. It is obvious that there will be only two threads of calculations in one moment. This brings less memory usage and increases of speed of the application.\\\\
+Another point was made, that the thread should be started inside Mathematical class, instead of starting it outside. It brings more flexibility for the program, because the application will just trigger functions of this class, and is not worried with what happens inside this class.
+
+\section{Gyroscope}
+To use only the accelerometer is not enough to detect the fall. The application should include protection from making wrong decisions. That is why it was important to figure out the logic of additional part in Mathematical package.\\\\
+First, the application should store data from sensors for the Gyroscope the same way as for the Accelerometer part in parallel. Secondly, the main mathematical part (accelerometer) should detect a fall. If it happens, the main part should trigger the method of the Gyroscope class and gives time stamps of the start and end of the fall. Then, the Gyroscope part is going to the previous measurements, when falling begins and the accelerometer has approximately -1 g on OZ axis. Between these two timestamps, the application started to measure the angle of the fall on two axis. If the composition angle of the two axis is equal to: $$90 \pm 35 \pm 180 * n, where\ n \in Z,$$
+then it means that the patient is laying and the Gyroscope class proofs the fall.\\\\
+The main problem of it is to understand from what point of time the application should start calculations of the patient tilt.
+
+\section{Machine Learning}
+On one of the previous team meetings, it was stated that our team would implement Machine Learning only if we will have enough time at the end of the project. On the previous week, it was decided that the application should be more reliable for decisions. That is why it was figured out that the application should also calculate angle of the patient during the fall.\\\\
+To minimize risks, a decision was made to check how Machine Learning can be implemented in our app. If ML is faster to implement it makes more sense to change the whole strategy of the Mathematical part. However, after research, it revealed that in order to implement ML, the team faces with several problems:
+\begin{itemize}
+	\item State a model for ML;(It is easy to do)
+	\item Convert the data from sensors to data, which can be understandable by ML (it will be the biggest problem, because data should be pre-processed. It means that all data that the application has should be converted to boolean data. Consequently, ML cannot decide if it's a fall or not depending on exact data from sensors)
+	\item •	Implement learning techniques for ML.
+\end{itemize}
+Model for ML can contain the following boolean fields: 
+\begin{itemize}
+	\item isImpact – absolute value of acceleration more than \textbf{2g}
+	\item isLayng – absolute value of acceleration after 400 ms on OX and OY axis is equal to \textbf{1g}
+	\item isMoving – absolute value of acceleration still more than \textbf{1,5 g}
+	\item isRotating – angular speed is more than normal
+\end{itemize}
+\begin{center}
+	\begin{tabular}{||c|c|c|c|c||} 
+		\hline
+		\textbf{isImpact} & \textbf{isLayng} & \textbf{isMoving} &\textbf{isRotating} & \textbf{Fall} \\ [0.5ex] 
+		\hline\hline
+		1 & 1 & 0 & 0 & 1 \\ 
+		\hline
+		1 & 1 & 0 & 1 & 1 \\
+		\hline
+		0 & 0 & 1 & 1 & 0 \\
+		\hline
+		0 & 1 & 0 & 1 & 0 \\  [1ex]
+		\hline  
+	\end{tabular}
+\end{center}
+As the result, ML in fall detection can do only a small part of the work that is why it is not effective to implement it at the field of study. 
+
+\section{Graphical User Interface} 
+To implement GUI based on the mock up made earlier, JavaFX Scene Builder\cite{JavaFX} was used. JavaFX Scene Builder is a tool that lets users design a JavaFX application's UI. UI components can be draged and dropped to a work area, modify their properties and at the end we will have FXML code for the created layout generated automatically. The result is a FXML file that can be combined with a Java project by binding the UI to the applications logic. \\\\
+In the first version of GUI we have main window with area for Accelerometer and Gyroscope graphs and buttons: Connect, Disconnect, Start(receiving data), Stop(receiving data), Clean. In the menu bar we have User General Information, Settings and Close buttons. In User General Information the user should fill in the form with his data and the contact person`s data. We are planning to modify the Settings window and we will discuss it on our weekly group meeting.
+
+\section{Effort Hours}
+\begin{itemize}
+	\item \textbf{Raul Bertone:} 16h
+	\item \textbf{Elis Harruni:} 12h
+	\item \textbf{Muyassar Kokhkharova:} 10h
+	\item \textbf{Saidar Ramazanov:} 15h
+	\item \textbf{Xhoni Robo:} 9h\\\\
+\end{itemize}
+
+Total Effort: 62h
+%----------------------------------------------------------------------------
+% Bibliography
+%----------------------------------------------------------------------------	
+\printbibliography
+\end{document}
+%----------------------------------------------------------------------------

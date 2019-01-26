@@ -1,0 +1,1417 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.10)  10 JUL 2018 13:22
+entering extended mode
+**"./HIS SNSS - Group 1 - Final Report.tex"
+("HIS SNSS - Group 1 - Final Report.tex"
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\ieeetran\IEEETran.cls"
+
+LaTeX Warning: You have requested document class `IEEETran',
+               but the document class provides `IEEEtran'.
+
+Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
+-- See the "IEEEtran_HOWTO" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/
+\@IEEEtrantmpdimenA=\dimen102
+\@IEEEtrantmpdimenB=\dimen103
+\@IEEEtrantmpdimenC=\dimen104
+\@IEEEtrantmpcountA=\count79
+\@IEEEtrantmpcountB=\count80
+\@IEEEtrantmpcountC=\count81
+\@IEEEtrantmptoksA=\toks14
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 503.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+-- Using 8.5in x 11in (letter) paper.
+-- Using PDF output.
+\@IEEEnormalsizeunitybaselineskip=\dimen105
+-- This is a 12 point document.
+\CLASSINFOnormalsizebaselineskip=\dimen106
+\CLASSINFOnormalsizeunitybaselineskip=\dimen107
+\IEEEnormaljot=\dimen108
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <14> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <22> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <22> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
+
+\IEEEquantizedlength=\dimen109
+\IEEEquantizedlengthdiff=\dimen110
+\IEEEquantizedtextheightdiff=\dimen111
+\IEEEilabelindentA=\dimen112
+\IEEEilabelindentB=\dimen113
+\IEEEilabelindent=\dimen114
+\IEEEelabelindent=\dimen115
+\IEEEdlabelindent=\dimen116
+\IEEElabelindent=\dimen117
+\IEEEiednormlabelsep=\dimen118
+\IEEEiedmathlabelsep=\dimen119
+\IEEEiedtopsep=\skip41
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@IEEEsubequation=\count86
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\c@figure=\count87
+\c@table=\count88
+\@IEEEeqnnumcols=\count89
+\@IEEEeqncolcnt=\count90
+\@IEEEsubeqnnumrollback=\count91
+\@IEEEquantizeheightA=\dimen120
+\@IEEEquantizeheightB=\dimen121
+\@IEEEquantizeheightC=\dimen122
+\@IEEEquantizeprevdepth=\dimen123
+\@IEEEquantizemultiple=\count92
+\@IEEEquantizeboxA=\box26
+\@IEEEtmpitemindent=\dimen124
+\IEEEPARstartletwidth=\dimen125
+\c@IEEEbiography=\count93
+\@IEEEtranrubishbin=\box27
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2018/02/14 3.18 The Babel package
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel-english\english.ldf"
+Language: english 2017/06/06 v3.3r English support from the babel system
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2018/02/14 3.18 Babel common definitions
+\babel@savecnt=\count94
+\U@D=\dimen126
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\txtbabel.def")
+\bbl@dirlevel=\count95
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen127
+\Gin@req@width=\dimen128
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen129
+\extrarowheight=\dimen130
+\NC@list=\toks16
+\extratabsurround=\skip44
+\backup@length=\skip45
+)
+\TX@col@width=\dimen131
+\TX@old@table=\dimen132
+\TX@old@col=\dimen133
+\TX@target=\dimen134
+\TX@delta=\dimen135
+\TX@cols=\count96
+\TX@ftn=\toks17
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.sty"
+Package: biblatex 2018/03/04 v3.11 programmable bibliographies (PK/MW)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count97
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.sty"
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count98
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.def"
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\xstring\xstring.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\xstring\xstring.tex"
+\@xs@message=\write3
+\integerpart=\count99
+\decimalpart=\count100
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+\c@tabx@nest=\count101
+\c@listtotal=\count102
+\c@listcount=\count103
+\c@liststart=\count104
+\c@liststop=\count105
+\c@citecount=\count106
+\c@citetotal=\count107
+\c@multicitecount=\count108
+\c@multicitetotal=\count109
+\c@instcount=\count110
+\c@maxnames=\count111
+\c@minnames=\count112
+\c@maxitems=\count113
+\c@minitems=\count114
+\c@citecounter=\count115
+\c@savedcitecounter=\count116
+\c@uniquelist=\count117
+\c@uniquename=\count118
+\c@refsection=\count119
+\c@refsegment=\count120
+\c@maxextratitle=\count121
+\c@maxextratitleyear=\count122
+\c@maxextradate=\count123
+\c@maxextraalpha=\count124
+\c@abbrvpenalty=\count125
+\c@highnamepenalty=\count126
+\c@lownamepenalty=\count127
+\c@maxparens=\count128
+\c@parenlevel=\count129
+\blx@tempcnta=\count130
+\blx@tempcntb=\count131
+\blx@tempcntc=\count132
+\blx@maxsection=\count133
+\blx@maxsegment@0=\count134
+\blx@notetype=\count135
+\blx@parenlevel@text=\count136
+\blx@parenlevel@foot=\count137
+\blx@sectionciteorder@0=\count138
+\labelnumberwidth=\skip46
+\labelalphawidth=\skip47
+\biblabelsep=\skip48
+\bibitemsep=\skip49
+\bibnamesep=\skip50
+\bibinitsep=\skip51
+\bibparsep=\skip52
+\bibhang=\skip53
+\blx@bcfin=\read1
+\blx@bcfout=\write4
+\c@mincomprange=\count139
+\c@maxcomprange=\count140
+\c@mincompwidth=\count141
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-dm.def"
+File: blx-dm.def 2018/03/04 v3.11 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count142
+\c@savedafterword=\count143
+\c@annotator=\count144
+\c@savedannotator=\count145
+\c@author=\count146
+\c@savedauthor=\count147
+\c@bookauthor=\count148
+\c@savedbookauthor=\count149
+\c@commentator=\count150
+\c@savedcommentator=\count151
+\c@editor=\count152
+\c@savededitor=\count153
+\c@editora=\count154
+\c@savededitora=\count155
+\c@editorb=\count156
+\c@savededitorb=\count157
+\c@editorc=\count158
+\c@savededitorc=\count159
+\c@foreword=\count160
+\c@savedforeword=\count161
+\c@holder=\count162
+\c@savedholder=\count163
+\c@introduction=\count164
+\c@savedintroduction=\count165
+\c@namea=\count166
+\c@savednamea=\count167
+\c@nameb=\count168
+\c@savednameb=\count169
+\c@namec=\count170
+\c@savednamec=\count171
+\c@translator=\count172
+\c@savedtranslator=\count173
+\c@shortauthor=\count174
+\c@savedshortauthor=\count175
+\c@shorteditor=\count176
+\c@savedshorteditor=\count177
+\c@labelname=\count178
+\c@savedlabelname=\count179
+\c@institution=\count180
+\c@savedinstitution=\count181
+\c@lista=\count182
+\c@savedlista=\count183
+\c@listb=\count184
+\c@savedlistb=\count185
+\c@listc=\count186
+\c@savedlistc=\count187
+\c@listd=\count188
+\c@savedlistd=\count189
+\c@liste=\count190
+\c@savedliste=\count191
+\c@listf=\count192
+\c@savedlistf=\count193
+\c@location=\count194
+\c@savedlocation=\count195
+\c@organization=\count196
+\c@savedorganization=\count197
+\c@origlocation=\count198
+\c@savedoriglocation=\count199
+\c@origpublisher=\count266
+\c@savedorigpublisher=\count267
+\c@publisher=\count268
+\c@savedpublisher=\count269
+\c@language=\count270
+\c@savedlanguage=\count271
+\c@origlanguage=\count272
+\c@savedoriglanguage=\count273
+\c@pageref=\count274
+\c@savedpageref=\count275
+\shorthandwidth=\skip54
+\shortjournalwidth=\skip55
+\shortserieswidth=\skip56
+\shorttitlewidth=\skip57
+\shortauthorwidth=\skip58
+\shorteditorwidth=\skip59
+\locallabelnumberwidth=\skip60
+\locallabelalphawidth=\skip61
+\localshorthandwidth=\skip62
+\localshortjournalwidth=\skip63
+\localshortserieswidth=\skip64
+\localshorttitlewidth=\skip65
+\localshortauthorwidth=\skip66
+\localshorteditorwidth=\skip67
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-compat.def"
+File: blx-compat.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-bibtex.def"
+File: blx-bibtex.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
+
+
+Package biblatex Warning: Using fall-back BibTeX(8) backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.def"
+File: biblatex.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
+\c@textcitecount=\count276
+\c@textcitetotal=\count277
+\c@textcitemaxnames=\count278
+\c@biburlnumpenalty=\count279
+\c@biburlucpenalty=\count280
+\c@biburllcpenalty=\count281
+\c@smartand=\count282
+)
+Package biblatex Info: Trying to load natbib compatibility...
+Package biblatex Info: ... file 'blx-natbib.def' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-natbib.def"
+File: blx-natbib.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\bbx\numeric.bbx"
+File: numeric.bbx 2018/03/04 v3.11 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\bbx\standard.bbx"
+File: standard.bbx 2018/03/04 v3.11 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count283
+\c@bbx:relatedtotal=\count284
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\cbx\numeric.cbx"
+File: numeric.cbx 2018/03/04 v3.11 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.cfg"
+File: biblatex.cfg 
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
+\lst@mode=\count285
+\lst@gtempboxa=\box28
+\lst@token=\toks18
+\lst@length=\count286
+\lst@currlwidth=\dimen136
+\lst@column=\count287
+\lst@pos=\count288
+\lst@lostspace=\dimen137
+\lst@width=\dimen138
+\lst@newlines=\count289
+\lst@lineno=\count290
+\lst@maxwidth=\dimen139
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count291
+\lst@skipnumbers=\count292
+\lst@framebox=\box29
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty"
+Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
+\c@tracingmulticols=\count293
+\mult@box=\box30
+\multicol@leftmargin=\dimen140
+\c@unbalance=\count294
+\c@collectmore=\count295
+\doublecol@number=\count296
+\multicoltolerance=\count297
+\multicolpretolerance=\count298
+\full@width=\dimen141
+\page@free=\dimen142
+\premulticols=\dimen143
+\postmulticols=\dimen144
+\multicolsep=\skip68
+\multicolbaselineskip=\skip69
+\partial@page=\box31
+\last@line=\box32
+\maxbalancingoverflow=\dimen145
+\mult@rightbox=\box33
+\mult@grightbox=\box34
+\mult@gfirstbox=\box35
+\mult@firstbox=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\c@columnbadness=\count299
+\c@finalcolumnbadness=\count300
+\last@try=\dimen146
+\multicolovershoot=\dimen147
+\multicolundershoot=\dimen148
+\mult@nat@firstbox=\box54
+\colbreak@box=\box55
+\mc@col@check@num=\count301
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen149
+\Hy@linkcounter=\count302
+\Hy@pagecounter=\count303
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count304
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4762.
+\c@Hy@tempcnt=\count305
+LaTeX Info: Redefining \url on input line 5115.
+\XeTeXLinkMargin=\dimen150
+\Fld@menulength=\count306
+\Field@Width=\dimen151
+\Fld@charsize=\dimen152
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count307
+\c@Item=\count308
+\c@Hfootnote=\count309
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count310
+\c@bookmark@seq@number=\count311
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip70
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\placeins\placeins.sty"
+Package: placeins 2005/04/18  v 2.2
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks19
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip71
+\f@nch@O@elh=\skip72
+\f@nch@O@erh=\skip73
+\f@nch@O@olh=\skip74
+\f@nch@O@orh=\skip75
+\f@nch@O@elf=\skip76
+\f@nch@O@erf=\skip77
+\f@nch@O@olf=\skip78
+\f@nch@O@orf=\skip79
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\lbx\english.lbx"
+File: english.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
+)
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count312
+\@quotereset=\count313
+("HIS SNSS - Group 1 - Final Report.aux")
+\openout1 = `"HIS SNSS - Group 1 - Final Report.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+
+-- Lines per column: 48 (exact).
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count314
+\scratchdimen=\dimen153
+\scratchbox=\box56
+\nofMPsegments=\count315
+\nofMParguments=\count316
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count317
+\MPscratchDim=\dimen154
+\MPnumerator=\count318
+\makeMPintoPDFobject=\count319
+\everyMPtoPDFconversion=\toks21
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+Package biblatex Info: No input encoding detected.
+(biblatex)             Assuming 'ascii'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'ascii'.
+Package biblatex Info: Input encoding 'ascii' specified.
+Package biblatex Info: Data encoding 'ascii' specified.
+(biblatex)             No need to reencode data.
+\openout4 = `HIS_SNSS_-_Group_1_-_Final_Report-blx.bib'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file '"HIS SNSS - Group 1 - Final Report".bbl' found
+.
+
+("HIS SNSS - Group 1 - Final Report.bbl")
+Package biblatex Info: Reference section=0 on input line 31.
+Package biblatex Info: Reference segment=0 on input line 31.
+\c@lstlisting=\count320
+\AtBeginShipoutBox=\box57
+Package hyperref Info: Link coloring OFF on input line 31.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count321
+)
+LaTeX Info: Redefining \ref on input line 31.
+LaTeX Info: Redefining \pageref on input line 31.
+LaTeX Info: Redefining \nameref on input line 31.
+
+("HIS SNSS - Group 1 - Final Report.out")
+("HIS SNSS - Group 1 - Final Report.out")
+\@outlinefile=\write5
+\openout5 = `"HIS SNSS - Group 1 - Final Report.out"'.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 37.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 37.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
+
+Underfull \hbox (badness 2096) in paragraph at lines 56--57
+[]\OT1/ptm/m/n/12 Data vi-su-al-iza-tion. Line graphs with ac-
+ []
+
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+[1{C:/Users/Johnny/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+]
+Underfull \hbox (badness 1460) in paragraph at lines 108--111
+[]\OT1/ptm/m/n/12 For an ap-pli-ca-tion whose sole pur-pose is the
+ []
+
+
+Underfull \hbox (badness 2134) in paragraph at lines 108--111
+\OT1/ptm/m/n/12 ba-sic re-li-a-bil-ity re-quire-ment is to pre-vent the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--111
+
+ []
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 146.
+[2]
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+ [3]
+<images/Risk_Man_Matrix.png, id=223, 1259.4553pt x 1556.06343pt>
+File: images/Risk_Man_Matrix.png Graphic file (type png)
+<use images/Risk_Man_Matrix.png>
+Package pdftex.def Info: images/Risk_Man_Matrix.png  used on input line 225.
+(pdftex.def)             Requested size: 491.1856pt x 606.8623pt.
+
+Overfull \hbox (239.1856pt too wide) in paragraph at lines 225--226
+ [][] 
+ []
+
+[4
+
+
+ <./images/Risk_Man_Matrix.png>]
+<images/Risk_Man_Key.png, id=231, 852.93657pt x 538.26094pt>
+File: images/Risk_Man_Key.png Graphic file (type png)
+<use images/Risk_Man_Key.png>
+Package pdftex.def Info: images/Risk_Man_Key.png  used on input line 236.
+(pdftex.def)             Requested size: 426.46724pt x 269.1298pt.
+
+Overfull \hbox (174.46724pt too wide) in paragraph at lines 236--237
+ [][] 
+ []
+
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--250
+\OT1/ptm/m/it/12 Receiving False Alarm\OT1/ptm/m/n/12 : User falls, sys-tem
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--250
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--250
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--250
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--250
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--250
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--250
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--250
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--250
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--250
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--250
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--250
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--250
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--250
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--250
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--250
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--250
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--250
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--250
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--250
+
+ []
+
+<images/Use_Case_Diag.png, id=232, 1123.94907pt x 769.37437pt>
+File: images/Use_Case_Diag.png Graphic file (type png)
+<use images/Use_Case_Diag.png>
+Package pdftex.def Info: images/Use_Case_Diag.png  used on input line 254.
+(pdftex.def)             Requested size: 258.50285pt x 176.95238pt.
+
+Overfull \hbox (6.50285pt too wide) in paragraph at lines 254--255
+ [][] 
+ []
+
+<images/Seq_Sys_Start.png, id=234, 1042.89626pt x 640.3925pt>
+File: images/Seq_Sys_Start.png Graphic file (type png)
+<use images/Seq_Sys_Start.png>
+Package pdftex.def Info: images/Seq_Sys_Start.png  used on input line 267.
+(pdftex.def)             Requested size: 260.72342pt x 160.09773pt.
+
+Overfull \hbox (8.72342pt too wide) in paragraph at lines 267--269
+ [][] 
+ []
+
+<images/Seq_Rec_Fall.png, id=235, 1008.76875pt x 633.11531pt>
+File: images/Seq_Rec_Fall.png Graphic file (type png)
+<use images/Seq_Rec_Fall.png>
+Package pdftex.def Info: images/Seq_Rec_Fall.png  used on input line 275.
+(pdftex.def)             Requested size: 201.75017pt x 126.6208pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[5
+
+ <./images/Risk_Man_Key.png> <./images/Use_Case_Diag.png> <./images/Seq_Sys_Sta
+rt.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 281--286
+\OT1/ptm/m/n/12 Each Sen-sortag runs a slightly mod-i-fied
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 281--286
+\OT1/ptm/m/n/12 ver-sion of the orig-i-nal TI ap-pli-ca-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 281--286
+\OT1/ptm/m/n/12 "\OT1/ptm/m/it/12 sen-sortag[]cc2650stk[]app\OT1/ptm/m/n/12 ": 
+they gather data
+ []
+
+
+Underfull \hbox (badness 3158) in paragraph at lines 281--286
+\OT1/ptm/m/n/12 The PC ap-pli-ca-tion anal-y-ses the sen-sor data
+ []
+
+
+Underfull \hbox (badness 4378) in paragraph at lines 281--286
+\OT1/ptm/m/n/12 The di-a-gram be-low shows the main sys-tem
+ []
+
+<images/Comp_Diag2.png, id=247, 632.3625pt x 461.725pt>
+File: images/Comp_Diag2.png Graphic file (type png)
+<use images/Comp_Diag2.png>
+Package pdftex.def Info: images/Comp_Diag2.png  used on input line 290.
+(pdftex.def)             Requested size: 252.94052pt x 184.68672pt.
+
+Overfull \hbox (0.94052pt too wide) in paragraph at lines 290--292
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[6 <./images/Seq_Rec_Fall.png> <./images/Comp_Diag2.png>]
+<images/UML_Diag.png, id=257, 1273.75874pt x 602.25pt>
+File: images/UML_Diag.png Graphic file (type png)
+<use images/UML_Diag.png>
+Package pdftex.def Info: images/UML_Diag.png  used on input line 307.
+(pdftex.def)             Requested size: 509.49448pt x 240.89572pt.
+
+Overfull \hbox (257.49448pt too wide) in paragraph at lines 307--309
+ [][] 
+ []
+
+<images/Seq_Fall.png, id=258, 469.755pt x 215.3646pt>
+File: images/Seq_Fall.png Graphic file (type png)
+<use images/Seq_Fall.png>
+Package pdftex.def Info: images/Seq_Fall.png  used on input line 316.
+(pdftex.def)             Requested size: 258.36604pt x 118.45088pt.
+
+Overfull \hbox (6.36604pt too wide) in paragraph at lines 316--318
+ [][] 
+ []
+
+<images/Seq_FalseAl.png, id=259, 352.6776pt x 206.4513pt>
+File: images/Seq_FalseAl.png Graphic file (type png)
+<use images/Seq_FalseAl.png>
+Package pdftex.def Info: images/Seq_FalseAl.png  used on input line 327.
+(pdftex.def)             Requested size: 151.6484pt x 88.77231pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--333
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--333
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--333
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--333
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--333
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--333
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--333
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--333
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--333
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--333
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--333
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--333
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--333
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--333
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--333
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--333
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--333
+
+ []
+
+<images/Seq_Slav_Conn.png, id=260, 465.23813pt x 278.6912pt>
+File: images/Seq_Slav_Conn.png Graphic file (type png)
+<use images/Seq_Slav_Conn.png>
+Package pdftex.def Info: images/Seq_Slav_Conn.png  used on input line 338.
+(pdftex.def)             Requested size: 232.61848pt x 139.34525pt.
+
+Underfull \hbox (badness 1389) in paragraph at lines 345--346
+\OT1/ptm/m/n/12 a pro-gram-ming lan-guage for back-end de-vel-op-
+ []
+
+[7
+
+ <./images/UML_Diag.png (PNG copy)> <./images/Seq_Fall.png> <./images/Seq_False
+Al.png> <./images/Seq_Slav_Conn.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 347.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 347.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 347.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\cite' on input line 347.
+
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+
+Underfull \hbox (badness 1708) in paragraph at lines 348--353
+\OT1/ptm/m/n/12 sen-sor pack present on the Sen-sortags, which
+ []
+
+
+Underfull \hbox (badness 1389) in paragraph at lines 348--353
+\OT1/ptm/m/n/12 ac-cel-er-a-tion and ori-en-ta-tion of it). Since it is
+ []
+
+
+Underfull \hbox (badness 3872) in paragraph at lines 348--353
+\OT1/ptm/m/n/12 user/-cloth-ing com-bi-na-tions (which is achieved
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--353
+
+ []
+
+
+Underfull \hbox (badness 3815) in paragraph at lines 348--353
+\OT1/ptm/m/n/12 The com-plete \OT1/ptm/m/it/12 mea-sure-ment chain \OT1/ptm/m/n
+/12 con-sists of
+ []
+
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ¬ in font ptmr7t!
+Missing character: There is no ∞ in font ptmr7t!
+[8]
+Underfull \hbox (badness 2837) in paragraph at lines 380--383
+[]\OT1/ptm/m/n/12 The "Math-ems class" was im-ple-mented as a
+ []
+
+
+Underfull \hbox (badness 1558) in paragraph at lines 380--383
+\OT1/ptm/m/n/12 class, which ex-tends the Thread class, and it
+ []
+
+
+Underfull \hbox (badness 2671) in paragraph at lines 380--383
+\OT1/ptm/m/n/12 uses the Sin-gle-ton pat-tern to have only one
+ []
+
+
+Underfull \hbox (badness 1515) in paragraph at lines 380--383
+\OT1/ptm/m/n/12 in-stance of the ob-ject. It was done this way
+ []
+
+
+Underfull \hbox (badness 3449) in paragraph at lines 380--383
+\OT1/ptm/m/n/12 new mea-sure-ments from Sen-sorTags. If there
+ []
+
+
+Overfull \hbox (2.26299pt too wide) in paragraph at lines 380--383
+\OML/cmm/m/it/12 ConfigurationStorage:getSKIP[]MEASURE\OT1/cmr/m/n/12 ()$
+ []
+
+
+Underfull \hbox (badness 2409) in paragraph at lines 383--387
+\OT1/ptm/m/n/12 Furthermore, the class has two flags for the
+ []
+
+
+Underfull \hbox (badness 1515) in paragraph at lines 383--387
+\OT1/ptm/m/n/12 fall: $\OML/cmm/m/it/12 isAclrFall\OT1/cmr/m/n/12 &&\OML/cmm/m/
+it/12 isGyroFall$\OT1/ptm/m/n/12 . The Gy-ro-scope
+ []
+
+
+Underfull \hbox (badness 3815) in paragraph at lines 383--387
+\OT1/ptm/m/n/12 ues. They are checked by the thread ev-ery
+ []
+
+
+Underfull \hbox (badness 2626) in paragraph at lines 389--390
+[]\OT1/ptm/m/n/12 Every pass of the tread trig-gers the method
+ []
+
+[9]
+Underfull \hbox (badness 5667) in paragraph at lines 401--404
+\OT1/ptm/m/n/12 The ap-pli-ca-tion should store data from the
+ []
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 401--404
+\OT1/ptm/m/n/12 the Ac-celerom-e-ter class in par-al-lel. Then, the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 401--404
+
+ []
+
+
+Overfull \hbox (7.00542pt too wide) in paragraph at lines 406--408
+ []$\OML/cmm/m/it/12 where Gx;  Gy is the velocity on OX and OY axis\OT1/cmr/m/
+n/12 ;$ 
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 423--428
+\OT1/ptm/m/it/12 Feature ac-ti-va-tion and de-ac-ti-va-tion\OT1/ptm/m/n/12 : si
+nce our
+ []
+
+[10]
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+
+Underfull \hbox (badness 4279) in paragraph at lines 430--432
+ \OT1/ptm/m/it/12 1) Prob-lems with Sen-sortags: [][][] \OT1/ptm/m/n/12 Some-ti
+mes our
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 430--432
+
+ []
+
+
+Underfull \hbox (badness 2035) in paragraph at lines 430--432
+\OT1/ptm/m/n/12 there-after. Af-ter talk-ing with Group 2, which
+ []
+
+
+Underfull \hbox (badness 2521) in paragraph at lines 430--432
+\OT1/ptm/m/n/12 made sim-i-lar mod-i-fi-ca-tions but didnt use the
+ []
+
+
+Underfull \hbox (badness 4647) in paragraph at lines 430--432
+\OT1/ptm/m/n/12 "EX-CLUDE" di-rec-tives for the pre-processor,
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 435--438
+\OT1/ptm/m/n/12 only un-der Linux and could be adapted for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 435--438
+
+ []
+
+
+Underfull \hbox (badness 7133) in paragraph at lines 435--438
+\OT1/ptm/m/n/12 The other pos-si-bil-i-ties were us-ing a smart
+ []
+
+
+Underfull \hbox (badness 5802) in paragraph at lines 440--449
+\OT1/ptm/m/n/12 ap-pli-ca-tions. From there we could find the
+ []
+
+
+Underfull \hbox (badness 2042) in paragraph at lines 440--449
+\OT1/ptm/m/n/12 we found out that a new mes-sage from the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 440--449
+
+ []
+
+
+Underfull \hbox (badness 2617) in paragraph at lines 440--449
+\OT1/ptm/m/n/12 Another prob-lem was that the se-rial port in
+ []
+
+[11]
+<images/msgstruct.png, id=311, 643.6547pt x 268.75406pt>
+File: images/msgstruct.png Graphic file (type png)
+<use images/msgstruct.png>
+Package pdftex.def Info: images/msgstruct.png  used on input line 453.
+(pdftex.def)             Requested size: 193.0979pt x 80.62683pt.
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+<images/FNS.png, id=312, 823.075pt x 702.625pt>
+File: images/FNS.png Graphic file (type png)
+<use images/FNS.png>
+Package pdftex.def Info: images/FNS.png  used on input line 467.
+(pdftex.def)             Requested size: 246.9244pt x 210.78912pt.
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ò in font ptmr7t!
+ [12 <./images/msgstruct.png> <./images/FNS.png>]
+Underfull \hbox (badness 1661) in paragraph at lines 489--489
+\OT1/ptm/m/it/12 Man-ual\OT1/ptm/m/n/12 . []$http : / / csse . usc . edu / csse
+ /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 489--489
+[]\OT1/ptm/m/n/12 Elis Haruni. \OT1/ptm/m/it/12 IC-Risk-Management-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 489--489
+\OT1/ptm/m/it/12 Matrix-SSNS-Project.xlsx\OT1/ptm/m/n/12 . [Re-lease Date:
+ []
+
+Missing character: There is no ‚ in font ptmri7t!
+Missing character: There is no Ñ in font ptmri7t!
+Missing character: There is no ¢ in font ptmri7t!
+Missing character: There is no ¬ in font ptmri7t!
+Missing character: There is no Æ in font ptmri7t!
+
+** Conference Paper **
+Before submitting the final camera ready copy, remember to:
+
+ 1. Manually equalize the lengths of two columns on the last page
+ of your paper;
+
+ 2. Ensure that any PostScript and/or PDF output post-processing
+ uses only Type 1 fonts and that every step in the generation
+ process uses the appropriate paper size.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 489.
+[13]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 489.
+ ("HIS SNSS - Group 1 - Final Report.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 489.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 489.
+Package rerunfilecheck Info: File `"HIS SNSS - Group 1 - Final Report".out' has
+ not changed.
+(rerunfilecheck)             Checksum: C8C93AAFE148F57C19D8E648A6DB5601;2714.
+Package logreq Info: Writing requests to '"HIS SNSS - Group 1 - Final Report".r
+un.xml'.
+\openout1 = `"HIS SNSS - Group 1 - Final Report.run.xml"'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 15119 strings out of 493305
+ 254042 string characters out of 3138871
+ 544397 words of memory out of 3000000
+ 18346 multiletter control sequences out of 15000+200000
+ 48892 words of font info for 101 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 40i,10n,45p,1182b,1642s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
+8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8
+a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "HIS SNSS - Group 1 - Final Report.pdf" (13 pages, 1021159 by
+tes).
+PDF statistics:
+ 434 PDF objects out of 1000 (max. 8388607)
+ 125 named destinations out of 1000 (max. 500000)
+ 357 words of extra memory for PDF output out of 10000 (max. 10000000)
+
