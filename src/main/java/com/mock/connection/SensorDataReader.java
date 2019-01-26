@@ -61,4 +61,9 @@ public class SensorDataReader extends Thread {
 		// TODO Auto-generated method stub
 		super.run();
 	}
+
+	public void readMovementService() {
+		// TODO Auto-generated method stub
+		
+	}
 }

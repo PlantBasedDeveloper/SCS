@@ -15,4 +15,4 @@ include 'api'
 include 'services:webservice'
 */
 
-rootProject.name = 'SSNS-Project-Desktop'
+rootProject.name = 'SCS-Project-Desktop'
