@@ -45,7 +45,7 @@ public class mainController {
 
 	//region
 /**
- * @author Elis
+ * @author Xhoni
  * 
  * Some counters for the series update and graph update
  * 
@@ -55,7 +55,7 @@ public class mainController {
 	MockServer sr = MockServer.getInstance();
 	
 	public static StringProperty Scan = new SimpleStringProperty(null);
-	public static StringProperty status = new SimpleStringProperty(MockServer.status);
+	public static StringProperty STATUS = new SimpleStringProperty(MockServer.STATUS);
 	
 	private XYChart.Series<Number, Number> Accel1Serie = new XYChart.Series<>(); 
 	private XYChart.Series<Number, Number> Accel2Serie = new XYChart.Series<>(); 
@@ -73,9 +73,9 @@ public class mainController {
 	
 	
     /**
-     * @author Elis
+     * @author Xhoni
      * 
-     *   All IDs ofr mainView elements
+     *   All IDs for mainView elements
      * 
      * TODO: From now one all new elements that you create for mainView 
      *       please add the IDs in this section
@@ -158,7 +158,7 @@ public class mainController {
     /* End of IDs of mainView */
     
     /**
-     * @author Elis
+     * @author Xhoni
      * 
      * Actions of main View Buttons f
      * 
@@ -288,7 +288,7 @@ public class mainController {
 		this.ddlAvSensors.getItems().add("Select a Sensor");
 		this.ddlAvSensors.getSelectionModel().selectFirst();
 //		this.ddlAvSensors.getSelectionModel().select(1);
-		this.lblConnecting.textProperty().bind(status);
+		this.lblConnecting.textProperty().bind(STATUS);
         this.btnConnect.disableProperty().bind(BooleanExpression.booleanExpression(Scan.isEmpty()));
         this.btnDisconnect.disableProperty().bind(BooleanExpression.booleanExpression(Scan.isEmpty()));
 		//this.btnConnect.disableProperty().bind(observable);
@@ -308,7 +308,7 @@ public class mainController {
     }
 
 	/**
-	 * @author Elis
+	 * @author Xhoni
 	 * 
 	 *         TODO: Please Use this section t add other functions that you will
 	 *         need for help
