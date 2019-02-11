@@ -126,7 +126,7 @@ public class Accelerometer {
 
 			if(laying > LAYING_POW) {
 				math.isAclrFall = true;
-				System.out.println("Aclr detected a Fall!!!");
+				//System.out.println("Aclr detected a Fall!!!");
 				return true;
 			}
 		}

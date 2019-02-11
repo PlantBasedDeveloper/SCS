@@ -1,8 +1,14 @@
 package com.mock.connection;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ConcurrentLinkedQueue;
+
+import org.apache.commons.math3.ml.neuralnet.twod.util.TopographicErrorHistogram;
+
+import com.application.mainController;
 
 public class MockServer {
     
@@ -12,20 +18,13 @@ public class MockServer {
 	
 	private static List<String> sensor1 = new ArrayList<>();
 	private static List<String> sensor2 = new ArrayList<>();
-	private static SensorDataReader[] mockSensors;
-	public static MsgQueue msg = new MsgQueue(5000);
-
-	
-	public static ConcurrentLinkedQueue<String> sensor1DataForDb =  new ConcurrentLinkedQueue<>();
-	public static ConcurrentLinkedQueue<String> sensor2DataForDb =  new ConcurrentLinkedQueue<>();
-	
 	public static ConcurrentLinkedQueue<Number> absAcc1Queue = new ConcurrentLinkedQueue<>();
 	public static ConcurrentLinkedQueue<Number> absAcc2Queue = new ConcurrentLinkedQueue<>();
 	public static ConcurrentLinkedQueue<Number> gyro1DataToDisplay = new ConcurrentLinkedQueue<>();
 	public static ConcurrentLinkedQueue<Number> gyro2DataToDisplay = new ConcurrentLinkedQueue<>();
+	public mainController mController;
 
 	private MockServer () {
-    	
     }
 	
 	public static MockServer getInstance() {
@@ -39,16 +38,12 @@ public class MockServer {
 		return instance;
 	}
     
-    public void activateButtons() {
-    	//TODO: implement
+    public void stopReading() throws IOException {
+    	mainController.sensorDataReader.stopReading();
     }
     
     public void readData() {
-    	new ProcessMessage(true);
-		for (SensorDataReader s : mockSensors) {
-			s.readMovementService();
-			
-		}
+		mainController.sensorDataReader.readFile();
     }
 
 	public String getSensor1Data() {
@@ -87,5 +82,11 @@ public class MockServer {
 	public void addToSensor2(String data) {
 		instance.sensor2.add(data);
 	}
-		
+
+	public String[] getSensorData() {
+		if (mainController.sensorDataReader == null) {
+			throw new IllegalStateException();
+		}
+		return mainController.sensorDataReader.readLineFromFile();
+	}
 }

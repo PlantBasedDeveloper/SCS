@@ -7,16 +7,16 @@ import java.util.Properties;
 /**
  * This class provides helper methods to send emails.
  *
- * @author Raul Bertone
+ * @author Xhoni Robo
  */
 
 public abstract class SendMail {
 
 	// account credentials for the mail server
-    private static final String SMTP_HOST_NAME = "smtps.aruba.it";
+    private static final String SMTP_HOST_NAME = "smtp.gmail.com";
     private static final int SMTP_HOST_PORT = 465;
-    private static final String SMTP_AUTH_USER = "fall.detector@emptyingthebuffer.com";
-    private static final String SMTP_AUTH_PWD  = "256rtcw45wf54fs";
+    private static final String SMTP_AUTH_USER = "falldetectionscsgroupa@gmail.com";
+    private static final String SMTP_AUTH_PWD  = "ihavefallenandicantgetup";
 
     /**
      * Sends an email to a single recipient using the static account credentials.
@@ -30,6 +30,8 @@ public abstract class SendMail {
         Properties props = new Properties();
 
         props.put("mail.transport.protocol", "smtps");
+        props.put("mail.smtp.socketFactory.class",
+				"javax.net.ssl.SSLSocketFactory");
         props.put("mail.smtps.host", SMTP_HOST_NAME);
         props.put("mail.smtps.auth", "true");
 
