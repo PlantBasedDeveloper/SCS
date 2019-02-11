@@ -13,7 +13,7 @@ import com.application.mainController;
  * This instance can then be reached by means of static methods. This allows callers
  * to reach instance methods without actually needing a reference to the instance itself.
  *
- * @author Raul Bertone
+ * @author Xhoni Robo
  */
 public class FallNotificationService implements Runnable{
 

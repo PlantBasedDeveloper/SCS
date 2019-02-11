@@ -1,8 +1,9 @@
 package com.application;
 
+import java.io.File;
 import java.net.URL;
 
-import com.application.util.FallNotificationService;
+//import com.application.util.FallNotificationService;
 import com.application.ui.*;
 
 import javafx.application.*;
@@ -12,6 +13,7 @@ import javafx.geometry.Rectangle2D;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
+import javafx.stage.FileChooser;
 import javafx.stage.Modality;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
@@ -21,7 +23,7 @@ public class MainAppliction extends Application {
 	@Override
 	public void start(Stage primaryStage) throws Exception {
 		
-		
+		try {
 		URL viewUrl = getClass().getResource("/com/application/ui/main.fxml");
 		
 		//BorderPane root= (BorderPane)FXMLLoader.load(viewUrl);
@@ -36,9 +38,10 @@ public class MainAppliction extends Application {
 		primaryStage.setScene(scene);	
 		primaryStage.setTitle("Main");
 		primaryStage.show();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
-	
-
 	
 	public void showSettings() throws Exception {
 		AnchorPane sett = (AnchorPane)FXMLLoader.load(getClass().getResource("/com/application/ui/settings.fxml"));

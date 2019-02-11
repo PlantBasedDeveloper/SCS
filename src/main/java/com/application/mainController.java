@@ -1,44 +1,33 @@
 package com.application;
 
+import java.io.File;
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
-import java.util.concurrent.ConcurrentLinkedQueue;
 
+import org.apache.commons.math3.ml.neuralnet.twod.util.TopographicErrorHistogram;
 
-//import com.application.bluetooth.DbSave;
-//import com.application.bluetooth.ProcessMessage;
-//import com.application.bluetooth.Sensor;
-//import com.application.bluetooth.Server;
-//import com.application.bluetooth.Utils;
+import com.application.math.Mathems;
 import com.application.util.FallNotificationService;
 import com.mock.connection.MockServer;
+import com.mock.connection.SensorDataReader;
 
 import javafx.animation.AnimationTimer;
-import javafx.application.Platform;
-import javafx.beans.binding.Bindings;
-import javafx.beans.binding.BooleanBinding;
-import javafx.beans.binding.BooleanExpression;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
-import javafx.beans.value.ObservableValue;
-import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
-import javafx.concurrent.Task;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.chart.CategoryAxis;
 import javafx.scene.chart.LineChart;
 import javafx.scene.chart.NumberAxis;
 import javafx.scene.chart.XYChart;
-import javafx.scene.chart.XYChart.Data;
-import javafx.scene.chart.XYChart.Series;
 import javafx.scene.control.Button;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.MenuItem;
-import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.paint.Color;
+import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 
 public class mainController {
@@ -55,22 +44,20 @@ public class mainController {
 	MockServer sr = MockServer.getInstance();
 	
 	public static StringProperty Scan = new SimpleStringProperty(null);
-	public static StringProperty STATUS = new SimpleStringProperty(MockServer.STATUS);
 	
 	private XYChart.Series<Number, Number> Accel1Serie = new XYChart.Series<>(); 
 	private XYChart.Series<Number, Number> Accel2Serie = new XYChart.Series<>(); 
 	NumberAxis xAxis = new NumberAxis(0, 50, 1);
-	NumberAxis yAxis = new NumberAxis(0,5,0.1);
+	NumberAxis yAxis = new NumberAxis(0,3,0.1);
 	
 	//TODO: fix range of each gyroaxis
 	int gyroSerieCount=0;
 	NumberAxis xGxis = new NumberAxis(0, 50, 1);
-	NumberAxis yGxis = new NumberAxis(0,180,10);
+	NumberAxis yGxis = new NumberAxis(0,90,10);
 	private XYChart.Series<Number, Number> Gyro1Serie = new XYChart.Series<>(); 
 	private XYChart.Series<Number, Number> Gyro2Serie = new XYChart.Series<>(); 
-	//private XYChart.Series<Number, Number> Accel2Serie = new XYChart.Series<>(); 
-	//private XYChart.Series<Number, Number> Accel2Serie = new XYChart.Series<>(); 
-	
+	public static File fileToRead = new File(System.getProperty("user.dir") + "\\data\\SA01\\D01_SA01_R01.txt");
+	public static SensorDataReader sensorDataReader = new SensorDataReader();
 	
     /**
      * @author Xhoni
@@ -102,28 +89,28 @@ public class mainController {
     static NumberAxis gyro_accel;
     
     @FXML
-    private Button btnClean;   
-    
-    @FXML
     private MenuItem btnClose;
-    
-    @FXML
-    private Button btnConnect;
-
-    @FXML
-    private Button btnDisconnect;
-    
+        
     @FXML
     private MenuItem btnSettings;
     
     @FXML
-    private Button btnStart;
+	public Button btnStart;
+    
+    @FXML
+	public Button btnBrowse;
     
     @FXML
     private Label btnStatus;
     
     @FXML
-    private Button btnStop;
+	public Button btnStop;
+    
+    @FXML
+    private Button btnFall;
+    
+    @FXML
+    private Button btnFlsAlarm;
 
     @FXML
     private MenuItem btnUserInfo;
@@ -138,23 +125,25 @@ public class mainController {
     private Label lblHelpReq;
     
     @FXML
-    private Button btnScan;
-    
-    @FXML
-    private ChoiceBox<String> ddlAvSensors;
-    
-    @FXML
     private AnchorPane idGraphAccl;
-    
 
     @FXML
     private AnchorPane idGraphGyro;
     
     @FXML
-    private TextField txtPortName;
-	
+    private Button btnClean;   
+    
     @FXML
-    private Button btnOpenPort;
+    private Button btnConnect;
+
+    @FXML
+    private Button btnDisconnect;
+    
+    @FXML
+    private Button btnScan;
+    
+    @FXML
+    private ChoiceBox<String> ddlAvSensors;
     /* End of IDs of mainView */
     
     /**
@@ -178,101 +167,57 @@ public class mainController {
     }
     
     @FXML
-//    TODO: delete
-    void Connect(ActionEvent event) {
-    	
-//    	String dev = this.ddlAvSensors.getValue();   	
-//    	sr.connectTo(Utils.reverseHexString(dev), this);
-    	
-    }
-    
-    @FXML
-    //TODO: delete
-    void Disconnect(ActionEvent event) {
-//    	sr.WriteToPort("01030C00");
-//    	//sr.AutoDiscover();
-//    	//new Application();
-    
-    }
-  
-    
-    @FXML
-    void FalseAlrm(ActionEvent event) {
+    void FalseAlrm(ActionEvent event) throws InterruptedException {
     	FallNotificationService.notifyFalseAlarm();
-    	sr.activateButtons();	//TODO: implement
-    }
-    
-    @FXML
-    //TODO: delete
-    void activateIOService(ActionEvent event) {
-    	sr.activateButtons();
-    	//sr.WriteToPort("01030C00");
-     //   new DbSave();
     }
     
     @FXML
     void doFall(ActionEvent event) {
     	FallNotificationService.notifyFall();
-    }    
+    } 
     
     @FXML
     void CloseApp(ActionEvent event) {
-    	
     }   
-    
+
     @FXML
     void Settings(ActionEvent event) throws Exception {
-    	
-    	//MainAppliction main = new MainAppliction();
     	main.showSettings();
     }
-
+//
     @FXML
     void StartReceiving(ActionEvent event) {  	
+    	sensorDataReader = new SensorDataReader();
+    	Mathems.main();
     	sr.readData();
-    	
-    	// new Application();
+    	btnStart.setDisable(true);
+    	btnBrowse.setDisable(true);
+    	btnStop.setDisable(false);
     }
-
+//
     @FXML
-    void StopReceiving(ActionEvent event) {
-    	sr.activateButtons();
-    	
+    void StopReceiving(ActionEvent event) throws InterruptedException, IOException {
+    	sr.stopReading();
+    	enableButtons();
     }
-       
+//    
+    @FXML
+    void Browse(ActionEvent event) {
+    	FileChooser fileChooser = new FileChooser();
+    	fileChooser.setInitialDirectory(new File("data"));
+    	fileChooser.getExtensionFilters().addAll(
+    		     new FileChooser.ExtensionFilter("Text Files", "*.txt")
+    		);
+    	fileToRead = fileChooser.showOpenDialog(new Stage());
+    	lblConnecting.setText("Loaded File - " + fileToRead.getName().toString());
+    }
+//       
     @FXML
     void Userinfo(ActionEvent event) throws Exception {
     	//MainAppliction file = new MainAppliction();
     	main.UserInfo();
-    }
-    
-    @FXML
-    //TODO: Change to load
-    void ScanForBluetoothDevices(ActionEvent event) {
-//    	Server.STATUS="Scanning...";
-//          	Scan.setValue(null);
-//          	sr.Scan(this);
-    
-    }
-    
-    @FXML
-    //TODO: remove
-    void openComPort(ActionEvent event) {
-
-//    	String portName= this.txtPortName.getText();
-//    	if(sr.openCOMPort(portName))
-//    	{
-//    		sr.DevInit(this);
-//    	}
-//    	else
-//    	{
-//    	 sr.STATUS=portName+"not correct";
-//    	}
-    	
-    	
-    }
-    
-    /**End of Actions of main View Buttons */
+    }    
+//    /**End of Actions of main View Buttons */
     
     @FXML
     void initialize() {
@@ -285,25 +230,13 @@ public class mainController {
     	FallNotificationService.setMain(this);
 		
 				
-		this.ddlAvSensors.getItems().add("Select a Sensor");
-		this.ddlAvSensors.getSelectionModel().selectFirst();
-//		this.ddlAvSensors.getSelectionModel().select(1);
-		this.lblConnecting.textProperty().bind(STATUS);
-        this.btnConnect.disableProperty().bind(BooleanExpression.booleanExpression(Scan.isEmpty()));
-        this.btnDisconnect.disableProperty().bind(BooleanExpression.booleanExpression(Scan.isEmpty()));
-		//this.btnConnect.disableProperty().bind(observable);
-        assert btnConnect != null : "fx:id=\"btnConnect\" was not injected: check your FXML file 'main.fxml'.";       
-        assert btnClean != null : "fx:id=\"btnClean\" was not injected: check your FXML file 'main.fxml'.";
-        assert btnDisconnect != null : "fx:id=\"btnDisconnect\" was not injected: check your FXML file 'main.fxml'.";
-        assert btnStart != null : "fx:id=\"btnStart\" was not injected: check your FXML file 'main.fxml'.";
+		assert btnStart != null : "fx:id=\"btnStart\" was not injected: check your FXML file 'main.fxml'.";
         assert btnStatus != null : "fx:id=\"btnStatus\" was not injected: check your FXML file 'main.fxml'.";
         assert btnStop != null : "fx:id=\"btnStop\" was not injected: check your FXML file 'main.fxml'.";
+        assert btnBrowse != null : "fx:id=\"btnBrowse\" was not injected: check your FXML file 'main.fxml'.";
         assert lblConnecting != null : "fx:id=\"lblConnecting\" was not injected: check your FXML file 'main.fxml'.";
         assert lblFallDet != null : "fx:id=\"lblFallDet\" was not injected: check your FXML file 'main.fxml'.";
         assert lblHelpReq != null : "fx:id=\"lblHelpReq\" was not injected: check your FXML file 'main.fxml'.";
-        assert btnOpenPort != null : "fx:id=\"btnOpenPort\" was not injected: check your FXML file 'main.fxml'.";
-        assert txtPortName != null : "fx:id=\"txtPortName\" was not injected: check your FXML file 'main.fxml'.";
-
         
     }
 
@@ -393,7 +326,6 @@ public class mainController {
 		}
 	}
     
-       
     private void prepareTimeline() {
         // Every frame to take any data from queue and add to chart
         new AnimationTimer() {
@@ -425,7 +357,7 @@ public class mainController {
          Accel1Series.setName("Aclr 1");
          lineChart.getData().addAll(Accel1Series);
          Accel2Series.setName("Aclr 2");
-         lineChart.getData().addAll(Accel2Serie);
+         lineChart.getData().addAll(Accel2Series);
          
          graphAnchorPane.getChildren().add(lineChart);
     }
@@ -453,54 +385,11 @@ public class mainController {
         lineChartGyro.getData().addAll(gyro2Serie);
         
         graphAnchorPane.getChildren().add(lineChartGyro);
-        
-    }
-    public Button getbtnConnect()
-    {
-    	return this.btnConnect;
-    }
-    public Button getbtnDisconnect()
-    {
-    	return this.btnDisconnect;
-    }
-
-//    public void showSensorsFound()
-//    {
-//    	this.ddlAvSensors.getItems().addAll(sr.devicesFound);
-//    }
+   }
     
-//    public static void StatusChanger() {
-//
-//    	Task<Void> task = new Task<Void>() {
-//            @Override
-//            protected Void call() throws Exception {
-//            	
-//            	while(MockServer.LUNCHPAD_READY)
-//            	{
-//            		Thread.sleep(10);
-//              	  
-//             	   Platform.runLater(new Runnable() {
-//
-//                        @Override
-//                        public void run() {
-//                        	status.setValue(String.valueOf(MockServer.STATUS));
-//                        	
-//                        	if(MockServer.SCAN_COMPLETE)
-//                        	{
-//                        		Scan.setValue("1");
-//                        	}
-//                        	
-//                        }
-//                    });
-//             	   
-//            	}
-//            	return null;
-//              
-//            }
-//         };
-//         Thread th = new Thread(task);
-//         th.setDaemon(true);
-//         th.start();
-//      
-//    }
+    public void enableButtons() {
+    	btnStart.setDisable(false);
+    	btnBrowse.setDisable(false);
+    	btnStop.setDisable(true);
+    }
 }
