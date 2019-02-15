@@ -3,7 +3,7 @@ package com.application.util;
 /**
  * The class provides static access to configuration and user data.
  *
- * @author Raul Bertone
+ * @author Xhoni Robo
  */
 public abstract class ConfigurationStorage {
 	// user's data
@@ -17,7 +17,7 @@ public abstract class ConfigurationStorage {
 
 	// helper's data
 	private static String CONTACT_PERSON_NAME = "Good Samaritan";
-	private static String CONTACT_PERSON_EMAIL = "bert1.raul@gmail.com";
+	private static String CONTACT_PERSON_EMAIL = "xhoni94robo@gmail.com";
 
 	// fall detection algorithm's settings
 	private static double IMPACT_POW = 2; // Value of Impact(g)

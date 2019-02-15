@@ -1,0 +1,32 @@
+\BOOKMARK [1][-]{section.1}{Functional and Non-Functional Requirements}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Functional Requirements}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Non-Functional Requirements}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Safety, Security and Reliability Requirements}{section.1}% 4
+\BOOKMARK [3][-]{subsubsection.1.3.1}{Safety Requirements}{subsection.1.3}% 5
+\BOOKMARK [3][-]{subsubsection.1.3.2}{Security Requirements}{subsection.1.3}% 6
+\BOOKMARK [3][-]{subsubsection.1.3.3}{Reliability Requirements}{subsection.1.3}% 7
+\BOOKMARK [1][-]{section.2}{Project Planning}{}% 8
+\BOOKMARK [2][-]{subsection.2.1}{Project Estimation}{section.2}% 9
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Function Points}{subsection.2.1}% 10
+\BOOKMARK [2][-]{subsection.2.2}{Group Organization}{section.2}% 11
+\BOOKMARK [2][-]{subsection.2.3}{Responsibilities of the Team Members}{section.2}% 12
+\BOOKMARK [2][-]{subsection.2.4}{Schedule}{section.2}% 13
+\BOOKMARK [2][-]{subsection.2.5}{Project Risk Analysis}{section.2}% 14
+\BOOKMARK [1][-]{section.3}{Design}{}% 15
+\BOOKMARK [2][-]{subsection.3.1}{Use Case Diagram}{section.3}% 16
+\BOOKMARK [2][-]{subsection.3.2}{Sequence Diagrams taken from the Use Cases}{section.3}% 17
+\BOOKMARK [2][-]{subsection.3.3}{Software Architecture}{section.3}% 18
+\BOOKMARK [2][-]{subsection.3.4}{Technologies, Libraries, IDEs, Tools}{section.3}% 19
+\BOOKMARK [1][-]{section.4}{Measurement Chain}{}% 20
+\BOOKMARK [2][-]{subsection.4.1}{Accelerometers}{section.4}% 21
+\BOOKMARK [2][-]{subsection.4.2}{Gyroscope}{section.4}% 22
+\BOOKMARK [1][-]{section.5}{Fall Detection Algorithm}{}% 23
+\BOOKMARK [2][-]{subsection.5.1}{Configuration Storage}{section.5}% 24
+\BOOKMARK [2][-]{subsection.5.2}{Main Thread and Work Logic}{section.5}% 25
+\BOOKMARK [2][-]{subsection.5.3}{Accelerometer}{section.5}% 26
+\BOOKMARK [2][-]{subsection.5.4}{Gyroscope}{section.5}% 27
+\BOOKMARK [2][-]{subsection.5.5}{Mathematic Fault Control}{section.5}% 28
+\BOOKMARK [1][-]{section.6}{Development and Application Fault Control}{}% 29
+\BOOKMARK [2][-]{subsection.6.1}{Fall Notification Service \(FNS\)}{section.6}% 30
+\BOOKMARK [2][-]{subsection.6.2}{Graphical User Interface}{section.6}% 31
+\BOOKMARK [2][-]{subsection.6.3}{Fault Control}{section.6}% 32

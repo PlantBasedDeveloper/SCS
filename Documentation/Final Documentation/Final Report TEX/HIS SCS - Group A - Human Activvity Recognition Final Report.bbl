@@ -1,0 +1,206 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{ssns}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=AG}{%
+         family={A},
+         familyi={A},
+         given={Group},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AG1}
+    \strng{fullhash}{AG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+  \field{howpublished}{\url{https://github.com/XhRobo/SSNS/tree/master/documentation/}}
+    \field{note}{[Accessed 15.02.19]}
+    \field{title}{{HIS SNSS - Group 1 - Final Report}}
+  \endentry
+
+  \entry{albrecht}{book}{}
+    \name{author}{1}{}{%
+      {{hash=AAJ}{%
+         family={Albrecht},
+         familyi={A\bibinitperiod},
+         given={A.\bibnamedelima J.},
+         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {in Proceedings of the Joint SHARE, GUIDE,}%
+      {IBM Application Development Symposium, Monterey, California}%
+    }
+    \strng{namehash}{AAJ1}
+    \strng{fullhash}{AAJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{Measuring Application Development Productivity}
+    \field{year}{1979}
+  \endentry
+
+  \entry{riskmatrix}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=BA}{%
+         family={Beck},
+         familyi={B\bibinitperiod},
+         given={Anton},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BA1}
+    \strng{fullhash}{BA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{note}{Included in project files}
+    \field{title}{IC-Risk-Management-Matrix-SCS-Project.xlsx}
+  \endentry
+
+  \entry{lablunda}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=BMLL}{%
+         family={Blunda},
+         familyi={B\bibinitperiod},
+         given={M.Sc. L.\bibnamedelima La},
+         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim
+  L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BMLL1}
+    \strng{fullhash}{BMLL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+  \field{howpublished}{\url{https://moodle.frankfurt-university.de/pluginfile.php/512521/mod_forum/attachment/94672/Project1.pdf}}
+    \field{note}{[accessed 27.10.18]}
+    \field{title}{{Project Proposal}}
+  \endentry
+
+  \entry{cocomo}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=BB}{%
+         family={Boehm},
+         familyi={B\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BB1}
+    \strng{fullhash}{BB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+  \field{howpublished}{\url{http://csse.usc.edu/csse/research/COCOMOII/cocomo2000.0/CII_modelman2000.0.pdf}}
+    \field{note}{[accessed 27.10.18]}
+    \field{title}{{COCOMO II Model Definition Manual}}
+  \endentry
+
+  \entry{github}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+  \field{howpublished}{\url{https://github.com/https://github.com/amineallani/SCS}}
+    \field{note}{[Accessed: 15.02.2019]}
+    \field{title}{Github Repository}
+  \endentry
+
+  \entry{umlspec}{book}{}
+    \name{author}{1}{}{%
+      {{hash=GOM}{%
+         family={Group},
+         familyi={G\bibinitperiod},
+         given={Object\bibnamedelima Management},
+         giveni={O\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GOM1}
+    \strng{fullhash}{GOM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{note}{p. 643}
+    \field{title}{UML 2.5.1 specification}
+    \field{year}{December 2017}
+  \endentry
+
+  \entry{JavaFX}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+  \field{howpublished}{\url{http://www.oracle.com/technetwork/java/javase/downloads/javafxscenebuilder-info-2157684.html}}
+    \field{note}{Accessed: 2018-05-30}
+    \field{title}{{JavaFX} Scene Builder}
+  \endentry
+
+  \entry{moodle}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+  \field{howpublished}{\url{https://moodle.frankfurt-university.de/mod/forum/view.php?id=172434}}
+    \field{note}{[Accessed: 15.02.2019]}
+    \field{title}{Moodle Website}
+  \endentry
+
+  \entry{ojectaid}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{howpublished}{\url{http://www.objectaid.com/home}}
+    \field{note}{[Accessed: 15.02.2019]}
+    \field{title}{ObjectAid UML Explorer for Eclipse}
+  \endentry
+
+  \entry{slack}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{howpublished}{\url{https://slack.com}}
+    \field{note}{[Accessed: 15.02.2019]}
+    \field{title}{Slack Main Website}
+  \endentry
+
+  \entry{thread}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+  \field{howpublished}{\url{https://docs.oracle.com/javase/7/docs/api/java/lang/Thread.html}}
+    \field{note}{[Accessed: 15.02.2019]}
+    \field{title}{Thread}
+  \endentry
+
+  \entry{whatsapp}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{howpublished}{\url{https://www.whatsapp.com/}}
+    \field{note}{[Accessed: 15.02.2019]}
+    \field{title}{WhatsApp}
+  \endentry
+\enddatalist
+\endinput

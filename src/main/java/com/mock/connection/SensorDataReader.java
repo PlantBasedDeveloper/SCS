@@ -1,64 +1,78 @@
 package com.mock.connection;
 
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
+import java.util.concurrent.ConcurrentLinkedQueue;
 
-public class SensorDataReader extends Thread {
-	
-	public ArrayList<String[]> data;
-	
+import com.application.mainController;
+
+public class SensorDataReader {
+
+	MockServer server = MockServer.getInstance();
+	public FileReader fileReader;
+	public BufferedReader bufferedReader;
+	public ConcurrentLinkedQueue<String[]> lines = new ConcurrentLinkedQueue<String[]>();
+	mainController mController;
+
 	public SensorDataReader() {
-		data = new ArrayList<String[]>();
-	}
-	
-	public ArrayList<File> readFilesFromFolder(File folder) {
-		ArrayList<File> files = new ArrayList<File>();
-		
-		for (final File file : folder.listFiles()) {
-	        if (file.isDirectory()) {
-	        	files.addAll(readFilesFromFolder(file));
-	        	
-	        } else {
-	            files.add(file);
-	        }
-	    }
-		
-		return files;
-	}
-	
-	public void readFile(File file) {
 		try {
-			FileReader fileReader = new FileReader(file);
-			BufferedReader bufferedReader = new BufferedReader(fileReader);
-			
-			String line;
-			try {
-				while ((line = bufferedReader.readLine()) != null) {
-					String[] arrLine = line.split(",");
-					data.add(arrLine);
-					Thread.sleep(5);
-					
-				}
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-			
+			fileReader = new FileReader(mainController.fileToRead);
+			bufferedReader = new BufferedReader(fileReader);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
-			
-		} catch (IOException ex) {
-	        ex.printStackTrace();
-	    }
+		}
+	}
+
+	public String[] readLineFromFile() {
+		String[] line = lines.poll();
+		return line;
 	}
 	
-	@Override
-	public void run() {
-		// TODO Auto-generated method stub
-		super.run();
+	public void addLineFromFile(String[] arrLine) {
+		lines.add(arrLine);
+	}
+
+	Thread readFileThread = null;
+    Runnable readTask = new Runnable() {    	
+		@Override
+		public void run() {
+			mController = new mainController();
+			try {
+				String line;
+				while ((line = bufferedReader.readLine()) != null) {
+					try {
+						line = line.replace(";", "");
+						String[] arrLine = line.split(",");
+//						System.out.println(arrLine[0] + " " + arrLine[0] + " " + arrLine[1] + " " + arrLine[2] + " "
+//								+ arrLine[3] + " " + arrLine[4] + " " + arrLine[5] + " " + arrLine[6] + " " + arrLine[7]
+//								+ " " + arrLine[8]);
+						addLineFromFile(arrLine);
+						Thread.sleep(5);
+
+					} catch (InterruptedException e) {
+						break;
+					}
+				}
+				bufferedReader.close();
+				
+			} catch (FileNotFoundException e) {
+				e.printStackTrace();
+
+			} catch (IOException ex) {
+				ex.printStackTrace();
+			}
+
+		}
+	};
+	
+	public void readFile() {
+		readFileThread = new Thread(readTask);
+		readFileThread.start();
+	}
+
+	public void stopReading() throws IOException {
+		if (readFileThread.isAlive()) readFileThread.interrupt();
 	}
 }
